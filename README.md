@@ -15,7 +15,12 @@ pip install -r requirements.txt
 
 ## Data files
 
+Dataset:
+- train
+- test
 
+The data files can be downloaded here:
+https://drive.google.com/drive/folders/1Iw2g45o0acQT2elxSJBBvCKCuSND_xTc?usp=sharing
 
 # Approach
 
