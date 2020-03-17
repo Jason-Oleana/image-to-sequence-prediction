@@ -6,6 +6,8 @@
 • tensorflow\
 • keras\
 • imblearn\
+• PIL
+• numpy
 
 or run below code in your prompt window after git cloning this repository
 
