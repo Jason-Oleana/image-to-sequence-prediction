@@ -1,6 +1,8 @@
 # CNN+LSTM model for image to svg code prediction
 
 # Goal 
+The goal is, given an image of a set of colored shapes, output the Scalable Vector Graphics code
+which generates this image.
 
 # Example
 
