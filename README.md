@@ -1,10 +1,9 @@
 # CNN+LSTM model for image to svg code prediction
 
 # Goal 
-The goal is, given an image of a set of colored shapes, output the Scalable Vector Graphics code
-which generates this image. The task is to learn to generate the Scalable Vector Graphics (SVG) code
+The goal is to learn to generate the Scalable Vector Graphics (SVG) code
 correspondig to images of simple colored shapes. SVG is a markup language
-which used to define vector graphics.
+which is used to define vector graphics.
 
 # Example
 
