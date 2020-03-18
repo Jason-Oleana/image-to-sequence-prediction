@@ -37,9 +37,9 @@ Our dataset consists of SVG files defining
 Each image contains a small set of these shapes. Each shape has a specified
 position, size and color.
 
-Files with matching names contain matching image/code.
-• train/png - 48,000 PNG 64x64 images
-• train/svg - 48,000 SVG definitions
+Files with matching names contain matching image/code.\
+• train/png - 48,000 PNG 64x64 images\
+• train/svg - 48,000 SVG definitions\
 • test/png - 2,000 PNG 64x64 images
 
 The data files can be downloaded here:
