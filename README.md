@@ -1,4 +1,4 @@
-# SVG code sequence prediction 
+# Image to SVG code prediction 
 
 
 ## Requirements
