@@ -74,6 +74,10 @@ improve anymore.
 #### 2. Hyperparameters related to Training Algorithm
 - The number of epochs was tuned until the validation set started to level out.
 
+#### Model loss & Model accuracy
+
+![](model-loss.png) ![](model-accuracy.png)
+
 ## Discussion of the performance of the solution:
 Sequence to sequence was the first working algorithm to solve this problem.
 The psychology behind this implementation was to treat a flattened image as a sequence corresponding
