@@ -2,11 +2,16 @@
 
 # Goal 
 
-# Image 
+# Example
 
+## Image 
 
-# Predict SVG code 
+![](0.png)
 
+## Scalable Vector Graphics (SVG) code
+
+<?xml version="1.0" encoding="utf-8" ?>
+<svg baseProfile="full" height="64" version="1.1" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs /><ellipse cx="32.0" cy="8.0" fill="silver" rx="16.0" ry="16.0" /><ellipse cx="32.0" cy="56.0" fill="green" rx="32.0" ry="16.0" /><ellipse cx="8.0" cy="8.0" fill="green" rx="16.0" ry="32.0" /></svg>
 
 ## Requirements
 
