@@ -1,4 +1,11 @@
-# Image to SVG code prediction 
+# CNN+LSTM model for image to svg code prediction
+
+# Goal 
+
+# Image 
+
+
+# Predict SVG code 
 
 
 ## Requirements
