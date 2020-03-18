@@ -18,7 +18,6 @@
 
 • tensorflow\
 • keras\
-• imblearn\
 • PIL\
 • numpy
 
