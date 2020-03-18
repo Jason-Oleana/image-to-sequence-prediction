@@ -96,5 +96,5 @@ Deng, Y., Kanervisto, A., Ling, J., & Rush, A. M. (2017, August). Image-to-marku
 to-fine attention. In Proceedings of the 34th International Conference on Machine Learning-Volume 70
 (pp. 980-989). JMLR. org.
 
-## Grade
+## Grade received
 9.1
