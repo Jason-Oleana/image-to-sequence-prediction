@@ -18,7 +18,7 @@
 
 • tensorflow\
 • keras\
-• PILLOW\
+• pillow\
 • numpy
 
 or run below code in your prompt window after git cloning this repository
