@@ -50,17 +50,17 @@ https://drive.google.com/drive/folders/1Iw2g45o0acQT2elxSJBBvCKCuSND_xTc?usp=sha
 The first step was loading and preprocessing the SVG dataset. The SVG codes were preprocessed by
 appending a start sequence at the beginning of all SVG code examples and appending an end sequence
 at the end of all SVG code examples. The SVG code was split on word-level. Tokenization was applied in
-order to retrieve unique output tokens. Shorter SVG codes were zero-padded to the longest sequence.
+order to retrieve unique output tokens. Shorter SVG codes were zero-padded in order to match the longest SVG code.
 As of last, decoder input data and target input data were created. The target input data was set to one
-time-step ahead of the decoder input data resulting in a shape of (48000, 59, 55).
+time step ahead of the decoder input data resulting in a shape of (48000, 59, 55).
 
 ## Deep learning architectures:
-The deep learning architecture used consisted of a Convolutional Neural Network in combination with a
+The deep learning architecture used, consisted a Convolutional Neural Network in combination with a
 Long Short Term Memory Recurrent Neural Network. This approach was inspired by existing
-architectures from Image captioning (Vinyals, Toshev, Bengio & Erhan, 2016) & Image-to-Markup
+architectures from image captioning (Vinyals, Toshev, Bengio & Erhan, 2016) & Image-to-Markup
 Generation (Deng, Kanervisto, Ling & Rush, 2017). The Convolutional Neural Network was used as an
 encoder. The LSTM was used to decode the SVG sequence corresponding to the input image. A conv2D
-layer, maxpooling2D, dropout layer, and dense layer were used. The flatten layer and dense layer were
+layer, maxpooling2D layer, dropout layer, and dense layer were used. The flatten layer and dense layer were
 used at the end of the convolutional neural network in order to connect the CNN to the LSTM model.
 Softmax was used in the output layer of the LSTM model in order to predict the SVG code.
 
@@ -77,7 +77,7 @@ improve anymore.
 
 ![](model-loss.png) ![](model-accuracy.png)
 
-## Discussion of the performance of the solution:
+## Discussion about the solution and performance:
 Sequence to sequence was the first working algorithm to solve this problem.
 The psychology behind this implementation was to treat a flattened image as a sequence corresponding
 to another sequence. The result of this model was an inefficient model due to an excessive amount of
