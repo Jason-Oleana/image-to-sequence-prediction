@@ -1,8 +1,8 @@
 # CNN+LSTM model for image to svg code prediction
 
 # Goal 
-The goal is, given an image of a set of colored shapes, output the Scalable Vector Graphics code
-which generates this image. SVG is a markup language which is used to define vector graphics.
+The goal is to learn to generate the Scalable Vector Graphics (SVG) code correspondig to images of simple colored shapes. 
+SVG is a markup language which is used to define vector graphics.
 
 # Example
 
