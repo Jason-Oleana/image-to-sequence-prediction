@@ -96,4 +96,6 @@ to-fine attention. In Proceedings of the 34th International Conference on Machin
 (pp. 980-989). JMLR. org.
 
 ## Grade received
-9.1
+
+US/UK grading system: A+
+Dutch grading system: 9.1
