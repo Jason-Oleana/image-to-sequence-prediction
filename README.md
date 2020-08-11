@@ -99,3 +99,5 @@ to-fine attention. In Proceedings of the 34th International Conference on Machin
 
 US/UK grading system: A+\
 Dutch grading system: 9.1
+
+![](deep-learning-assignment-grade.jpeg)
