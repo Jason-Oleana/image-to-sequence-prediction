@@ -16,15 +16,23 @@ SVG is a markup language which is used to define vector graphics.
 <?xml version="1.0" encoding="utf-8" ?>
 <svg baseProfile="full" height="64" version="1.1" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs /><ellipse cx="32.0" cy="8.0" fill="silver" rx="16.0" ry="16.0" /><ellipse cx="32.0" cy="56.0" fill="green" rx="32.0" ry="16.0" /><ellipse cx="8.0" cy="8.0" fill="green" rx="16.0" ry="32.0" /></svg>
 ```
-## Requirements
 
-• tensorflow\
-• keras\
-• pillow\
-• numpy
+### 1. Set up a virtual Python environment
 
-or run below code in your prompt window after git cloning this repository
+#### For MacOS users
+```shell
+virtualenv .env
+source .env/bin/activate
+```
 
+#### For Windows users
+```
+pip install virtualenv
+virtualenv env
+env\Scripts\activate
+```
+
+### 2. Pip install requirements
 ```
 pip install -r requirements.txt
 ```

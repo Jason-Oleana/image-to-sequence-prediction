@@ -1,5 +1,4 @@
-tensorflow
-keras
-imblearn
-PILLOW
-numpy
+tensorflow==2.2.0
+imbalanced-learn==0.7.0
+numpy==1.17.0
+Pillow==8.3.1
